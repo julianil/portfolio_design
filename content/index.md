@@ -5,7 +5,7 @@ Description: This is our index page.
 
 Home page
 ==========================
-<div class="bild_text">
+<div class="bild-text">
 
 <div><img src="assets/img/julia.jpg" alt="Bild på mig" width="3000em"></div>
 
