@@ -308,6 +308,201 @@ template {
   display: none;
 }
 
+/* report.scss */
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+/* technologies.scss */
+.container {
+  display: grid;
+}
+
+.container h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.tech-box {
+  height: 20vh;
+  background-color: rgb(215, 165, 244);
+  border: solid #fff 0.2rem;
+  border-radius: 20%;
+}
+
+.tech-box a {
+  font-size: 2em;
+  color: #fff;
+}
+
+.css {
+  grid-column: span 1;
+  padding: 2rem;
+}
+
+.html {
+  grid-column: span 2;
+  padding: 2rem;
+}
+
+.js {
+  grid-column: span 2;
+  padding: 2rem;
+}
+
+.php {
+  grid-column: span 1;
+  padding: 2rem;
+}
+
+.python {
+  grid-column: span 3;
+  padding: 2rem;
+}
+
+.git {
+  grid-column: span 1;
+  padding: 2rem;
+}
+
+.sqlite {
+  grid-column: span 2;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .container h1 {
+    grid-column: span 2;
+  }
+  .tech-box {
+    height: 15vh;
+    border-radius: 20%;
+  }
+  .tech-box a {
+    font-size: 1.7em;
+  }
+  .css {
+    grid-column: span 1;
+    padding: 1.5rem;
+  }
+  .html {
+    grid-column: span 1;
+    padding: 1.5rem;
+  }
+  .js {
+    grid-column: span 2;
+    padding: 1.5rem;
+  }
+  .php {
+    grid-column: span 1;
+    padding: 1.5rem;
+  }
+  .python {
+    grid-column: span 1;
+    padding: 1.5rem;
+  }
+  .git {
+    grid-column: span 2;
+    padding: 1.5rem;
+  }
+  .sqlite {
+    grid-column: span 2;
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container h1 {
+    grid-column: span 1;
+  }
+  .tech-box {
+    height: 10vh;
+    border-radius: 20%;
+    text-align: center;
+  }
+  .tech-box a {
+    font-size: 1.5em;
+  }
+  .css {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+  .html {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+  .js {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+  .php {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+  .python {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+  .git {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+  .sqlite {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+}
+/* technology.scss */
+.tech-content pre {
+  width: 70%;
+  position: relative;
+  float: right;
+  margin-top: 2vh;
+}
+
+.two-column-layout {
+  display: flex;
+}
+
+.tech-meny {
+  width: 30%;
+}
+
+.tech-meny a {
+  display: block;
+}
+
+.tech-info {
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .tech-content pre {
+    width: 100%;
+    margin-top: 2vh;
+  }
+  .two-column-layout {
+    display: block;
+  }
+  .tech-meny {
+    display: none;
+  }
+  .tech-meny a {
+    display: none;
+  }
+  .tech-info {
+    width: 100%;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6515,7 +6710,7 @@ body {
   width: 25%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .title,
   .logo {
     padding: 1em 1em 1em 0;
@@ -6576,4 +6771,10 @@ body {
 img {
   max-width: 100%;
   padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .bild-text {
+    display: block;
+  }
 }

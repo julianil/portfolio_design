@@ -1,5 +1,8 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'report';
+@import 'technologies';
+@import 'technology';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -76,7 +79,7 @@ body {
     width: 25%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .title,
     .logo {
         padding: 1em 1em 1em 0;
@@ -141,4 +144,10 @@ body {
 img {
     max-width: 100%;
     padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .bild-text {
+        display: block;
+    }
 }

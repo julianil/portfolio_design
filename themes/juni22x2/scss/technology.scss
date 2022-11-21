@@ -1,0 +1,46 @@
+/* technology.scss */
+.tech-content pre {
+    width: 70%;
+    position: relative;
+    float: right;
+    margin-top: 2vh;
+}
+
+.two-column-layout {
+    display: flex;
+}
+
+.tech-meny {
+    width: 30%;
+}
+
+.tech-meny a {
+    display: block;
+}
+
+.tech-info {
+    width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+    .tech-content pre {
+        width: 100%;
+        margin-top: 2vh;
+    }
+    
+    .two-column-layout {
+        display: block;
+    }
+    
+    .tech-meny {
+        display: none;
+    }
+    
+    .tech-meny a {
+        display: none;
+    }
+    
+    .tech-info {
+        width: 100%;
+    }
+}
