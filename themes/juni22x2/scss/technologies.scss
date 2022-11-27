@@ -11,8 +11,10 @@
 .tech-box {
     height: 20vh;
     background-color: $background-alternative-color;
-    border: solid $font-alternative-color 0.2rem;
     border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tech-box a {
@@ -30,7 +32,7 @@
     padding: 2rem;
 }
 
-.js {
+.javascript {
     grid-column: span 2;
     padding: 2rem;
 }
@@ -79,7 +81,7 @@
         padding: 1.5rem;
     }
     
-    .js {
+    .javascript {
         grid-column: span 2;
         padding: 1.5rem;
     }
@@ -130,7 +132,7 @@
         padding: 1rem;
     }
     
-    .js {
+    .javascript {
         grid-column: span 1;
         padding: 1rem;
     }

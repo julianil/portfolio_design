@@ -37,20 +37,20 @@ h6 {
     font-family: 'Bebas Neue', cursive;
     margin: 0.6em auto;
     font-weight: bold;
-    color: $accent-color;
+    color: $accent-color-dark;
 }
 
 html,
 body {
     height: 100%;
+    width: 100vw;
 }
 
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.5rem;
-    color: $font-color;
-
+    background-color: $background-color-dark;
 }
 
 .hidden {
@@ -63,11 +63,22 @@ body {
     flex: 1 0 auto;
 }
 
+.main p,
+ul,
+li,
+a,
+em,
+th,
+td,
+del {
+    color: $font-alternative-color;
+}
+
 .header,
 .site-header {
     display: flex;
     justify-content: center;
-    background-color: $background-alternative-color;
+    background-color: $background-alternative-color-dark;
 }
 
 .titel {
@@ -109,12 +120,12 @@ body {
 }
 
 .nav li:first-child:hover {
-    background-color: $accent-color;
+    background-color: $accent-color-dark;
     color: $font-color;
 }
 
 .nav li:last-child:hover {
-    background-color: $accent-color;
+    background-color: $accent-color-dark;
     color: $font-color;
 }
 
@@ -126,7 +137,7 @@ body {
     height: 100px;
     padding: 20px;
     margin-top: 40px;
-    background-color: $background-alternative-color;
+    background-color: $background-alternative-color-dark;
 }
 
 .footer .social {
@@ -138,6 +149,10 @@ body {
     border-radius: 50%;
 }
 
+.bild-text p {
+    color: $font-alternative-color;
+}
+
 .bild-text img {
     filter: grayscale(100%);
 }
@@ -147,12 +162,20 @@ img {
     padding: 20px;
 }
 
+.about-text p {
+    color: $font-alternative-color;
+}
+
 @media (max-width: 600px) {
     .bild-text {
         display: block;
     }
 }
 
+.tech-info p {
+    color: $font-alternative-color;
+}
+
 .tech-box {
-    border: solid $font-alternative-color 0.2rem;
+    border: solid $font-color 0.2rem;
 }

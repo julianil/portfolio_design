@@ -7,9 +7,16 @@
     "example": "example"
   },
 "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
   "lint": "stylelint \"**/*.scss\"",
-  "style": "sass juni22x2/scss/style.scss juni22x2/css/style.css --no-source-map",
-  "style-min": "sass juni22x2/scss/style.scss juni22x2/css/style.css --no-source-map --style compressed"
+  "watch": "sass juni22x2/scss/style.scss:juni22x2/css/style.css juni22x2/scss/style-dark.scss:juni22x2/css/style-dark.css --no-source-map --watch",
+  "watch-min": "sass juni22x2/scss/style.scss:juni22x2/css/style.min.css juni22x2/scss/style-dark.scss:juni22x2/css/style-dark.min.css --no-source-map --watch --style compressed",
+  "style": "npm run style-light && npm run style-dark",
+  "style-min": "npm run style-light-min && npm run style-dark-min",
+  "style-dark": "sass juni22x2/scss/style-dark.scss juni22x2/css/style-dark.css --no-source-map",
+  "style-dark-min": "sass juni22x2/scss/style-dark.scss juni22x2/css/style-dark.min.css --no-source-map --style compressed",
+  "style-light": "sass juni22x2/scss/style.scss juni22x2/css/style.css --no-source-map",
+  "style-light-min": "sass juni22x2/scss/style.scss juni22x2/css/style.min.css --no-source-map --style compressed"
 },
   "keywords": [],
   "author": "",
