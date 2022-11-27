@@ -14,11 +14,9 @@ Template: technology
         <a href = "%base_url%/technology/sqlite">SQLite</a>
     </div>
     <div class="tech-info">
-        Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
-
-        I CSS använder vi selektorer för att beskriva vilka element vi vill påverka och deklarerar sedan stilen för elementen i ett block.
-
-        Om vi till exempel vill sätta färgen för alla textstycken till blå gör vi på följande sätt.
+        <p>Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.</p>
+        <p>I CSS använder vi selektorer för att beskriva vilka element vi vill påverka och deklarerar sedan stilen för elementen i ett block.</p>
+        <p>Om vi till exempel vill sätta färgen för alla textstycken till blå gör vi på följande sätt.</p>
 </div>
 </div>
 

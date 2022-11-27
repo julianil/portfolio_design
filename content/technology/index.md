@@ -15,7 +15,7 @@ Technologies
     <a href = "%base_url%/technology/html">HTML</a>
 </div>
 
-<div class="tech-box" class="js">
+<div class="tech-box" class="javascript">
     <a href = "%base_url%/technology/javascript">Javascript</a>
 </div>
 

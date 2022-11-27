@@ -14,11 +14,9 @@ Template: technology
         <a href = "%base_url%/technology/sqlite">SQLite</a>
     </div>
     <div class="tech-info">
-        Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. Programmeringsspråket är dynamiskt typad och betecknas som ett generellt programmeringsspråk då det kan tillämpas inom många domäner.
-
-        Programmeringsspråket utmärkar sig genom att alla datatyper är baserat på klasser och objekt. En annan aspekt som skiljer Python från andra språk är att indentering används för att särskilja block i koden.
-
-        Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i Python:
+        <p>Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. Programmeringsspråket är dynamiskt typad och betecknas som ett generellt programmeringsspråk då det kan tillämpas inom många domäner.</p>
+        <p>Programmeringsspråket utmärkar sig genom att alla datatyper är baserat på klasser och objekt. En annan aspekt som skiljer Python från andra språk är att indentering används för att särskilja block i koden.</p>
+        <p>Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i Python:</p>
 </div>
 </div>
 

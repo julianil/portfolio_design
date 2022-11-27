@@ -14,6 +14,6 @@ Template: technology
         <a href = "%base_url%/technology/git">GIT</a>
     </div>
     <div class="tech-info">
-        SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL). Datatyper som man kan använda sig av är begränsade i förhållande till exempelvis MySQL eller PostGreSQL.
+        <p>SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL). Datatyper som man kan använda sig av är begränsade i förhållande till exempelvis MySQL eller PostGreSQL.</p>
 </div>
 </div>

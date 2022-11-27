@@ -14,11 +14,9 @@ Template: technology
         <a href = "%base_url%/technology/sqlite">SQLite</a>
     </div>
     <div class="tech-info">
-        HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben. Webbsidor skrivs i HTML och skickas sedan över internet med hjälp av HTTP.
-
-        HTML beskriver innehåll och struktur för våra webbplatser och gör det möjligt att ladda andra dokument till exempel CSS eller JavaScript filer.
-
-        HTML använder sig av element beskrivna av taggar. Nedan är ett exempel på ett textstycke med en länk i:
+        <p>HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben. Webbsidor skrivs i HTML och skickas sedan över internet med hjälp av HTTP.</p>
+        <p>HTML beskriver innehåll och struktur för våra webbplatser och gör det möjligt att ladda andra dokument till exempel CSS eller JavaScript filer.</p>
+        <p>HTML använder sig av element beskrivna av taggar. Nedan är ett exempel på ett textstycke med en länk i:</p>
 </div>
 </div>
 
