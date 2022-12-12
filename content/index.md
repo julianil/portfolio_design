@@ -7,9 +7,9 @@ Home page
 ==========================
 <div class="bild-text">
 
-<div><img src="assets/img/julia.jpg" alt="Bild på mig" width="3000em"></div>
+<div class="img-me"><img src="assets/img/julia.jpg" alt="Bild på mig" width="3000em"></div>
 
-<div>
+<div class="text-me">
 <p>Hej,</p>
 <p>Mitt namn är Julia Nilsson och jag är 22 år gammal. Född och uppvuxen i Stockholm, Täby, i ett villaområde cirka 25 minuter utanför city.
 När jag var liten spelade jag fotboll men har i övrigt inte några speciella intressen utöver det vanliga. Efter studenten hamnade direkt i Norrköping och pluggade här i 3 år tills jag hade en kandidat i Grafisk Design och Kommunikation. Under denna tid träffade jag även min sambo som jag nu efter examen bor kvar i Norrköping med. På fritiden jobbar jag extra på en kommunikationsbyrå här i stan, hänger med kompisar, tränar och gör andra vanliga svensson-saker.</p>

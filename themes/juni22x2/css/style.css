@@ -335,7 +335,7 @@ template {
 
 .tech-box {
   height: 20vh;
-  background-color: rgb(215, 165, 244);
+  background-color: rgb(241, 202, 240);
   border-radius: 20%;
   display: flex;
   align-items: center;
@@ -344,7 +344,7 @@ template {
 
 .tech-box a {
   font-size: 2em;
-  color: #fff;
+  color: #000;
 }
 
 .css {
@@ -665,6 +665,20 @@ template {
   width: 100%;
 }
 
+.container-rapport {
+  display: flex;
+  margin: 15px;
+}
+
+.text-rapport {
+  width: 100%;
+  padding: 10px;
+}
+
+.typsnitt {
+  box-shadow: none;
+}
+
 /* gallery.scss */
 img,
 embed,
@@ -684,6 +698,8 @@ video {
 
 .gallery img {
   grid-column: span 1;
+  box-shadow: none;
+  padding: 2px;
 }
 
 .embed-container-video {
@@ -6869,6 +6885,7 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+  color: #1c1c1c;
 }
 
 * {
@@ -6893,7 +6910,7 @@ h6 {
   font-family: "Bebas Neue", cursive;
   margin: 0.6em auto;
   font-weight: bold;
-  color: rgb(255, 64, 102);
+  color: rgb(191, 36, 67);
 }
 
 html,
@@ -6922,7 +6939,7 @@ body {
 .site-header {
   display: flex;
   justify-content: center;
-  background-color: rgb(215, 165, 244);
+  background-color: rgb(241, 202, 240);
 }
 
 .titel {
@@ -6933,12 +6950,14 @@ body {
 .logo {
   padding: 3em 3em 3em 0;
   width: 40%;
+  box-shadow: none;
 }
 
 @media (max-width: 800px) {
   .title,
   .logo {
     padding: 1em 1em 1em 0;
+    box-shadow: none;
   }
   .title {
     min-width: 50%;
@@ -6952,21 +6971,12 @@ body {
   font-style: italic;
 }
 
-.nav li:first-child {
+.nav li {
   color: #fff;
 }
 
-.nav li:last-child {
-  color: #fff;
-}
-
-.nav li:first-child:hover {
-  background-color: rgb(255, 64, 102);
-  color: #000;
-}
-
-.nav li:last-child:hover {
-  background-color: rgb(255, 64, 102);
+.nav li:hover {
+  background-color: rgb(191, 36, 67);
   color: #000;
 }
 
@@ -6977,7 +6987,7 @@ body {
   height: 100px;
   padding: 20px;
   margin-top: 40px;
-  background-color: rgb(215, 165, 244);
+  background-color: rgb(241, 202, 240);
 }
 
 .footer .social {
@@ -6986,16 +6996,22 @@ body {
 
 .bild-text {
   display: flex;
-  border-radius: 50%;
 }
 
-.bild-text img {
-  filter: grayscale(100%);
+.img-me {
+  max-width: 100%;
 }
 
 img {
-  max-width: 100%;
-  padding: 20px;
+  box-shadow: -15px 15px rgb(241, 202, 240);
+}
+
+.hoger-skugga {
+  box-shadow: 15px 15px rgb(241, 202, 240);
+}
+
+.text-me {
+  padding-left: 20px;
 }
 
 @media (max-width: 600px) {

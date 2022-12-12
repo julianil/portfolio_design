@@ -17,6 +17,8 @@ video {
 
 .gallery img {
     grid-column: span 1;
+    box-shadow: none;
+    padding: 2px;
 }
 
 .embed-container-video {

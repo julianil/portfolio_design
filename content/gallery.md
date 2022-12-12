@@ -90,5 +90,5 @@ Template: gallery
 </div>
 
 <div class="embed-container-video">
-    <iframe src="https://www.youtube.com/embed/DGQwd1_dpuc" frameborder="0" allowfullscreen></iframe>
+    <iframe title="youtube-klipp" src="https://www.youtube.com/embed/DGQwd1_dpuc" frameborder="0" allowfullscreen></iframe>
 </div>

@@ -335,7 +335,7 @@ template {
 
 .tech-box {
   height: 20vh;
-  background-color: rgb(215, 165, 244);
+  background-color: rgb(241, 202, 240);
   border-radius: 20%;
   display: flex;
   align-items: center;
@@ -344,7 +344,7 @@ template {
 
 .tech-box a {
   font-size: 2em;
-  color: #fff;
+  color: #000;
 }
 
 .css {
@@ -665,6 +665,20 @@ template {
   width: 100%;
 }
 
+.container-rapport {
+  display: flex;
+  margin: 15px;
+}
+
+.text-rapport {
+  width: 100%;
+  padding: 10px;
+}
+
+.typsnitt {
+  box-shadow: none;
+}
+
 /* gallery.scss */
 img,
 embed,
@@ -684,6 +698,8 @@ video {
 
 .gallery img {
   grid-column: span 1;
+  box-shadow: none;
+  padding: 2px;
 }
 
 .embed-container-video {
@@ -6869,6 +6885,7 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+  color: #1c1c1c;
 }
 
 * {
@@ -6877,7 +6894,7 @@ pre code {
   border: 0 none;
   margin: 0;
   padding: 0;
-  color: #000;
+  color: #fff;
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -6893,7 +6910,7 @@ h6 {
   font-family: "Bebas Neue", cursive;
   margin: 0.6em auto;
   font-weight: bold;
-  color: #61357a;
+  color: #8f71a1;
 }
 
 html,
@@ -6906,7 +6923,7 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.5rem;
-  background-color: #000;
+  background-color: rgb(45, 40, 46);
 }
 
 .hidden {
@@ -6934,7 +6951,7 @@ del {
 .site-header {
   display: flex;
   justify-content: center;
-  background-color: #6a6a6a;
+  background-color: #1c1c1c;
 }
 
 .titel {
@@ -6945,12 +6962,14 @@ del {
 .logo {
   padding: 3em 3em 3em 0;
   width: 40%;
+  box-shadow: none;
 }
 
 @media (max-width: 800px) {
   .title,
   .logo {
     padding: 1em 1em 1em 0;
+    box-shadow: none;
   }
   .title {
     min-width: 50%;
@@ -6964,22 +6983,13 @@ del {
   font-style: italic;
 }
 
-.nav li:first-child {
+.nav li {
   color: #fff;
 }
 
-.nav li:last-child {
+.nav li:hover {
+  background-color: #8f71a1;
   color: #fff;
-}
-
-.nav li:first-child:hover {
-  background-color: #61357a;
-  color: #000;
-}
-
-.nav li:last-child:hover {
-  background-color: #61357a;
-  color: #000;
 }
 
 /* Footer */
@@ -6989,7 +6999,7 @@ del {
   height: 100px;
   padding: 20px;
   margin-top: 40px;
-  background-color: #6a6a6a;
+  background-color: #1c1c1c;
 }
 
 .footer .social {
@@ -6998,7 +7008,6 @@ del {
 
 .bild-text {
   display: flex;
-  border-radius: 50%;
 }
 
 .bild-text p {
@@ -7009,9 +7018,24 @@ del {
   filter: grayscale(100%);
 }
 
-img {
+.bild-text {
+  display: flex;
+}
+
+.img-me {
   max-width: 100%;
-  padding: 20px;
+}
+
+img {
+  box-shadow: -15px 15px #1c1c1c;
+}
+
+.hoger-skugga {
+  box-shadow: 15px 15px #1c1c1c;
+}
+
+.text-me {
+  padding-left: 20px;
 }
 
 .about-text p {
@@ -7028,5 +7052,5 @@ img {
 }
 
 .tech-box {
-  border: solid #000 0.2rem;
+  border: solid rgb(45, 40, 46) 0.2rem;
 }
